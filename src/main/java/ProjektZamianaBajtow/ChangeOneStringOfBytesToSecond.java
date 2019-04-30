@@ -46,6 +46,7 @@ public class ChangeOneStringOfBytesToSecond extends Application {
 
         assert fList != null; // zeby nie bylo NullPointerException
 
+
         for (File file : fList) {
             try {
                 if (file.isFile()) {
