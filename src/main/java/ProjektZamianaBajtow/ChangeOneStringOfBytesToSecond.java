@@ -148,7 +148,26 @@ public class ChangeOneStringOfBytesToSecond extends Application {
         myStage.show();
     }
 
+    public boolean returnBool(String s, String s2){
+        return s == s2;
+    }
+    public static boolean returnBool2(String s, String s2){
+        return s == s2;
+    }
+
     public static void main(String[] args) {
+        String s = "Ala ma kota";
+        String s2 = "Ala ma kota";
+        ChangeOneStringOfBytesToSecond changeOneStringOfBytesToSecond = new ChangeOneStringOfBytesToSecond();
+        System.out.println(changeOneStringOfBytesToSecond.returnBool(s, s2));
+        System.out.println(returnBool2(s,s2));
         launch(args);
     }
 }
+
+
+
+
+
+
+
